@@ -3,6 +3,10 @@ This folder consists of 4 files.
 2. The file 'Obtain the maximum space of weak keys.cs' is used to obtain the maximum space of the weak keys after the parameter B 
    is set according to the minimum number of 1s.
 3. The file 'ConSet.txt' is the derived conditions to control the propagation of the chosen differences.
+   -- The current contains of 'ConSet.txt' are the conditions derived form each v_i for i in I_1, where
+   I_1={0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69}.
 4. The file 'FinalCons.txt' is the output after solving our MILP models. According to it, we could obtain the final conditions imposed on
    key/iv variables.
+   -- The current file 'FinalCons.txt' is the output under the condition that parameter B is set to 3. 
+      (corresponding condition set is 'ConSet.txt')
 
