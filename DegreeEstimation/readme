@@ -1,26 +1,32 @@
 In this folder, there are three files.
 1. File 'Degree Estimation Result for I_1 under natural condition1.txt' is the degrees of the superpoly of cube I in for r-round Trivium, 
    where 960 <= r <= 1152.
-   where I={0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78}
-   The condition is:
+   where I={0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78}(the same as the first cube in section 4.2)
+   The condition (denoted by C7) is:
    a. k1,k2,k4,k5,k7,k8,k10,k11,k13,k14,k16,k17,k19,k20,k22,k23,k25,k26,k28,k29,k31,k32,k34,k35,k37,k38,k40,k41,k43,k44,k46,k47,
       k49,k50,k52,k53,k55,k56,k58,k59,k61,k62,k64,k65,k67,k68,k70,k71,k73,k74,k76,k77,k79 are set to 0.
    b. v1,v2,v4,v5,v7,v8,v10,v11,v13,v14,v16,v17,v19,v20,v22,v23,v25,v26,v28,v29,v31,v32,v34,v35,v37,v38,v40,v41,v43,v44,v46,v47,
       v49,v50,v52,v53,v55,v56,v58,v59,v61,v62,v64,v65,v67,v68,v70,v71,v73,v74,v76,v77 are set to 0.
    c. k0,k3,k6,k9,k12,k15,k18,k21,k24,k27,k30,k33,k36,k39,k42,k45,k48,k51,k54,k57,k60,k63,k66,k69,k72,k75,k78 are treated as variables.
-   *************************************************************
-   *************************************************************
+***************************************************************************************************************************************
+***************************************************************************************************************************************
  2. File 'Degree Estimation Result for I_1 under natural condition2.txt' is the degrees of the superpoly of cube I in for r-round Trivium, 
    where 960 <= r <= 1152.
    where I={0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78}
-   The condition is:
+   The condition (denoted by C8) is:
    a. k1,k2,k4,k5,k7,k8,k10,k11,k13,k14,k16,k17,k19,k20,k22,k23,k25,k26,k28,k29,k31,k32,k34,k35,k37,k38,k40,k41,k43,k44,k46,k47,
    k49,k50,k52,k53,k55,k56,k58,k59,k61,k62,k64,k65,k67,k68,k70,k71,k73,k74,k76,k77,k79 are set to 0.
    b. k0 is set to 1
    b. v1,v2,v4,v5,v7,v8,v10,v11,v13,v14,v16,v17,v19,v20,v22,v23,v25,v26,v28,v29,v31,v32,v34,v35,v37,v38,v40,v41,v43,v44,v46,v47,
    v49,v50,v52,v53,v55,v56,v58,v59,v61,v62,v64,v65,v67,v68,v70,v71,v73,v74,v76,v77 are set to 0.
    c. k3,k6,k9,k12,k15,k18,k21,k24,k27,k30,k33,k36,k39,k42,k45,k48,k51,k54,k57,k60,k63,k66,k69,k72,k75,k78 are treated as variables.
-   
+***************************************************************************************************************************************
+***************************************************************************************************************************************
+ Compared with the condition C1, the most conditions in these two condition(C7 and C8) are the same with C1. However, most of the upper 
+ bounds of the degrees of the superpolies of I for Trivium with r rounds (960 <= r <= 1152) under C7/C8 are higher than those under 
+ the condition C1. Hence, the MILP tool is critical for us to find better conditions.
+***************************************************************************************************************************************
+***************************************************************************************************************************************
  3. File 'DegreeEstimationForTrivium.cs' is the source code.
     It is a writen in C#. The code is writen in C# and the MILP solver used is Gurobi 7.5. To run it, we should use release/x64 mode 
     and cite the Gurobi75Net.dll.
