@@ -1,3 +1,13 @@
-1.The folder DegreeEstimation contains the source code used to estimate the upper bounds of degrees of a superpoly and 
-  two .txt documents which includes the expermental results under two netural conditions.
-2. 
+1.The folder 'DegreeEstimation' contains 
+  a. the source code used to estimate the upper bounds of degrees of a superpoly 
+  b. two .txt documents which includes the expermental results under two natural conditions.
+****************************************************************************************************************************
+****************************************************************************************************************************
+2. The folder 'DerivingConditions' inlcudes
+   a. the source code of deriving conditions for a chosen set of differences.
+   b. the set of conditions derived for differnces indexed by I_1
+   c. the set of conditions derived for differnces indexed by I_2
+****************************************************************************************************************************
+****************************************************************************************************************************
+3. 
+
