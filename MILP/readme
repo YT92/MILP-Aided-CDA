@@ -1,1 +1,8 @@
+This folder consists of 4 files.
+1. The file 'figure out the minimum number of 1s.cs' is used to figure out the minimum number of conditions which are equal to 1.
+2. The file 'Obtain the maximum space of weak keys.cs' is used to obtain the maximum space of the weak keys after the parameter B 
+   is set according to the minimum number of 1s.
+3. The file 'ConSet.txt' is the derived conditions to control the propagation of the chosen differences.
+4. The file 'FinalCons.txt' is the output after solving our MILP models. According to it, we could obtain the final conditions imposed on
+   key/iv variables.
 
