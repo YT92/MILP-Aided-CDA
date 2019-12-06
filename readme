@@ -9,5 +9,9 @@
    c. the set of conditions derived for differnces indexed by I_2
 ****************************************************************************************************************************
 ****************************************************************************************************************************
-3. 
+3. The folder 'MILP' includes
+   a. the source code of figuring out the minimum number of conditions which are set to 1.
+   b. the source code of obtaining the maximum space of weak keys 
+   c. the file contains a set of conditions
+   d. the file contains the output of our algorithm corresponding to the conditions in the above file.
 
