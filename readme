@@ -15,3 +15,18 @@
    c. the file contains a set of conditions
    d. the file contains the output of our algorithm corresponding to the conditions in the above file.
 
+****************************************************************************************************************************
+****************************************************************************************************************************
+4. The folder 'KeyRecoveyAttacks' includes
+   a. the source code of attacks proposed in sect 4 and the brute-force attacks
+****************************************************************************************************************************
+****************************************************************************************************************************
+5. The folder 'MILP' includes
+   a. the source code for verifying the correctness of the condition obtained by MILP models
+   b. the set of conditions derived for differnces indexed by I_1
+   c. the set of conditions derived for differnces indexed by I_2
+   d. when using the source code, it needs to put the conditions in the file 'ConSet' and set the conditon under verifying.
+****************************************************************************************************************************
+****************************************************************************************************************************
+6. The folder 'Superpolies' includes
+   a. the superpolies corresponding to Table 2
